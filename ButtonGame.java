@@ -146,7 +146,7 @@ public class ButtonGame extends Application {
             while (!sequenceQueue.isEmpty()) {
                 Button button = sequenceQueue.poll();
                 try {
-                    Thread.sleep(500);
+                    Thread.sleep(200);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -157,7 +157,7 @@ public class ButtonGame extends Application {
                 });
 
                 try {
-                    Thread.sleep(500);
+                    Thread.sleep(200);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
